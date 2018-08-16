@@ -1,0 +1,9 @@
+[submodule "thirdparty"]
+	path = thirdparty
+	url = https://github.com/Shtille/scythe-thirdparty.git
+[submodule "scythe"]
+	path = scythe
+	url = https://github.com/Shtille/scythe.git
+[submodule "demos"]
+	path = demos
+	url = https://github.com/Shtille/scythe-demos.git
