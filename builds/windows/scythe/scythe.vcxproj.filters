@@ -67,6 +67,9 @@
     <Filter Include="src\platform\windows">
       <UniqueIdentifier>{86c73590-763b-4c1b-89a3-78136bb7fe25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\physics">
+      <UniqueIdentifier>{ad25e9b4-4137-426e-9775-34df22c92525}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\scythe\include\declare_main.h">
@@ -189,31 +192,13 @@
     <ClInclude Include="..\..\..\scythe\src\math\geometry\segment.h">
       <Filter>src\math\geometry</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\bounding_box.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\common_math.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\frustum.h">
       <Filter>src\math</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\line.h">
       <Filter>src\math</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\matrix.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\plane.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\quaternion.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\segment.h">
-      <Filter>src\math</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\math\vector.h">
       <Filter>src\math</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\vertical_profile.h">
@@ -369,6 +354,51 @@
     <ClInclude Include="..\..\..\scythe\src\string_id.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\common\ref.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\common\sc_delete.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\common\string_format.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\constants.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\vector2.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\quaternion.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\vector3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\vector4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\matrix4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\matrix3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\bounding_box.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\bounding_sphere.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\frustum.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\plane.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\ray.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\scythe\src\application\application.cpp">
@@ -470,22 +500,7 @@
     <ClCompile Include="..\..\..\scythe\src\math\common_math.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\math\frustum.cpp">
-      <Filter>src\math</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\math\matrix.cpp">
-      <Filter>src\math</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\math\plane.cpp">
-      <Filter>src\math</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\math\quaternion.cpp">
-      <Filter>src\math</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\math\segment.cpp">
-      <Filter>src\math</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\math\vector.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\math\vertical_profile.cpp">
@@ -620,5 +635,73 @@
     <ClCompile Include="..\..\..\scythe\src\string_id.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\common\ref.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\vector2.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\quaternion.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\vector3.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\vector4.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\matrix4.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\matrix3.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\bounding_box.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\bounding_sphere.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\frustum.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\plane.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\ray.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\scythe\src\math\vector2.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\quaternion.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\vector3.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\vector4.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\matrix4.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\matrix3.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\bounding_box.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\bounding_sphere.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\plane.inl">
+      <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\math\ray.inl">
+      <Filter>src\math</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -4,6 +4,8 @@
 [submodule "scythe"]
 	path = scythe
 	url = https://github.com/Shtille/scythe.git
+	ignore = dirty
 [submodule "demos"]
 	path = demos
 	url = https://github.com/Shtille/scythe-demos.git
+	ignore = dirty
