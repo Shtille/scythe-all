@@ -7,9 +7,8 @@ ifeq ($(OS),Windows_NT)
 	#CCFLAGS += -D WIN32
 	MAKE := mingw32-make.exe
 	LDFLAGS = -s -shared
-	CC = gcc
-	CCP = g++
-	PLATFORM_SUFFIX = mingw32
+	CC := gcc
+	CXX := g++
 	SHARED_LIB_EXT = .so
 else
 	MAKE := make
@@ -17,16 +16,14 @@ else
 	UNAME_S := $(shell uname -s)
 	ifeq ($(UNAME_S),Linux)
 		#CCFLAGS += -D LINUX
-		CC = gcc
-		CCP = g++
-		PLATFORM_SUFFIX = unix
+		CC := gcc
+		CXX := g++
 		SHARED_LIB_EXT = .so
 	endif
 	ifeq ($(UNAME_S),Darwin)
 		#CCFLAGS += -D OSX
-		CC = clang
-		CCP = clang++
-		PLATFORM_SUFFIX = macosx
+		CC := clang
+		CXX := clang++
 		SHARED_LIB_EXT = .dylib
 		# OSX has its own CURL with command line tools
 		CURL_LIB := curl
@@ -37,32 +34,49 @@ endif
 export STATIC_LIB_EXT
 export SHARED_LIB_EXT
 export CC
-export CCP
+export CXX
 export AR
 export LDFLAGS
 
 LIBRARY_DIRS = thirdparty scythe
 BINARY_DIRS = demos
-DIRS_ORDER = $(LIBRARY_DIRS) install_libs $(BINARY_DIRS)
+DIRS_ORDER = \
+	$(LIBRARY_DIRS) install_libs \
+	$(BINARY_DIRS) install_bins
 
 LIB_PATH = lib
 
 all: $(DIRS_ORDER)
 
+.PHONY: clean
+clean:
+	@$(foreach directory, $(LIBRARY_DIRS) $(BINARY_DIRS), $(MAKE) -C $(directory) clean ;)
+
+.PHONY: install
+install: install_bins
+
+.PHONY: uninstall
+uninstall:
+	@$(foreach directory, $(BINARY_DIRS), $(MAKE) -C $(directory) uninstall ;)
+
+.PHONY: help
+help:
+	@echo available targets: all clean install uninstall
+
 $(LIBRARY_DIRS):
-	@echo Get down to $@
-	@$(MAKE) -C $@
+	@$(MAKE) -C $@ $@
 
 $(BINARY_DIRS):
-	@echo Get down to $@
-	@$(MAKE) -C $@
+	@$(MAKE) -C $@ $@
 
 create_libs_dir:
 	@test -d $(LIB_PATH) || mkdir $(LIB_PATH)
 
 install_libs: create_libs_dir
 	@find $(LIB_PATH) -name "*$(STATIC_LIB_EXT)" -type f -delete
-	@find thirdparty -name "*$(STATIC_LIB_EXT)" -type f -exec cp {} $(LIB_PATH) \;
-	@find scythe -name "*$(STATIC_LIB_EXT)" -type f -exec cp {} $(LIB_PATH) \;
+	@$(foreach directory, $(LIBRARY_DIRS), find $(directory) -name "*$(STATIC_LIB_EXT)" -type f -exec cp {} $(LIB_PATH) \; ;)
+
+install_bins:
+	@$(foreach directory, $(BINARY_DIRS), $(MAKE) -C $(directory) install ;)
 
 .PHONY: $(DIRS_ORDER)
