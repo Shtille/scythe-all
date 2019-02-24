@@ -187,6 +187,7 @@
     <ClInclude Include="..\..\..\scythe\src\math\quaternion.h" />
     <ClInclude Include="..\..\..\scythe\src\math\ray.h" />
     <ClInclude Include="..\..\..\scythe\src\math\segment.h" />
+    <ClInclude Include="..\..\..\scythe\src\math\transform.h" />
     <ClInclude Include="..\..\..\scythe\src\math\vector2.h" />
     <ClInclude Include="..\..\..\scythe\src\math\vector3.h" />
     <ClInclude Include="..\..\..\scythe\src\math\vector4.h" />
@@ -211,9 +212,6 @@
     <ClInclude Include="..\..\..\scythe\src\platform\window_struct.h" />
     <ClInclude Include="..\..\..\scythe\src\resource.h" />
     <ClInclude Include="..\..\..\scythe\src\resource_manager.h" />
-    <ClInclude Include="..\..\..\scythe\src\scene\scene.h" />
-    <ClInclude Include="..\..\..\scythe\src\scene\scene_manager.h" />
-    <ClInclude Include="..\..\..\scythe\src\scene\scene_transition_listener.h" />
     <ClInclude Include="..\..\..\scythe\src\stream\file_stream.h" />
     <ClInclude Include="..\..\..\scythe\src\stream\log_stream.h" />
     <ClInclude Include="..\..\..\scythe\src\stream\memory_stream.h" />
@@ -285,6 +283,7 @@
     <ClCompile Include="..\..\..\scythe\src\math\quaternion.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\ray.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\segment.cpp" />
+    <ClCompile Include="..\..\..\scythe\src\math\transform.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\vector2.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\vector3.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\vector4.cpp" />
@@ -306,8 +305,6 @@
     <ClCompile Include="..\..\..\scythe\src\platform\desktop_main_wrapper.cpp" />
     <ClCompile Include="..\..\..\scythe\src\platform\windows\window_controller.cpp" />
     <ClCompile Include="..\..\..\scythe\src\resource_manager.cpp" />
-    <ClCompile Include="..\..\..\scythe\src\scene\scene.cpp" />
-    <ClCompile Include="..\..\..\scythe\src\scene\scene_manager.cpp" />
     <ClCompile Include="..\..\..\scythe\src\stream\file_stream.cpp" />
     <ClCompile Include="..\..\..\scythe\src\stream\log_stream.cpp" />
     <ClCompile Include="..\..\..\scythe\src\stream\memory_stream.cpp" />
