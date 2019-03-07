@@ -43,9 +43,6 @@
     <Filter Include="src\platform">
       <UniqueIdentifier>{0de5ac50-1940-40ea-85da-f3e0590aa1cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\scene">
-      <UniqueIdentifier>{797034f8-d687-4291-b335-23991b0a4703}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\stream">
       <UniqueIdentifier>{4a5c0ea9-c8cb-4f4b-9ad5-fda13f71876b}</UniqueIdentifier>
     </Filter>
@@ -258,15 +255,6 @@
     <ClInclude Include="..\..\..\scythe\src\platform\window_struct.h">
       <Filter>src\platform</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\scene\scene.h">
-      <Filter>src\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\scene\scene_manager.h">
-      <Filter>src\scene</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\scene\scene_transition_listener.h">
-      <Filter>src\scene</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\stream\file_stream.h">
       <Filter>src\stream</Filter>
     </ClInclude>
@@ -397,6 +385,9 @@
       <Filter>src\math</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\ray.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\math\transform.h">
       <Filter>src\math</Filter>
     </ClInclude>
   </ItemGroup>
@@ -554,12 +545,6 @@
     <ClCompile Include="..\..\..\scythe\src\platform\desktop_main_wrapper.cpp">
       <Filter>src\platform</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\scene\scene.cpp">
-      <Filter>src\scene</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\scene\scene_manager.cpp">
-      <Filter>src\scene</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\stream\file_stream.cpp">
       <Filter>src\stream</Filter>
     </ClCompile>
@@ -669,6 +654,9 @@
       <Filter>src\math</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\math\ray.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\transform.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
   </ItemGroup>
