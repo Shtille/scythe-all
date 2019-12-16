@@ -87,7 +87,13 @@
     <ClInclude Include="..\..\..\scythe\src\common\enum_table.h">
       <Filter>src\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\common\log.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\common\non_copyable.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\common\notification.h">
       <Filter>src\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\common\platform.h">
@@ -201,37 +207,16 @@
     <ClInclude Include="..\..\..\scythe\src\math\vertical_profile.h">
       <Filter>src\math</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\box_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\complex_mesh.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\cube_frame.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\cube_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\generated_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\model\mesh.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\model\mesh_part.h">
       <Filter>src\model</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.h">
       <Filter>src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\physical_box_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\screen_quad_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\sphere_model.h">
-      <Filter>src\model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\tetrahedron_model.h">
+    <ClInclude Include="..\..\..\scythe\src\model\model.h">
       <Filter>src\model</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\model\tiny_obj_loader.h">
@@ -324,6 +309,9 @@
     <ClInclude Include="..\..\..\scythe\src\crypt.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\drawable.h">
+      <Filter>src</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\endianness.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -331,6 +319,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\material.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\node.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\resource.h">
@@ -389,6 +380,48 @@
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\math\transform.h">
       <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\bullet_include.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_collision_object.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_collision_shape.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_controller.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_fixed_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_generic_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_ghost_object.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_hinge_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_rigid_body.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_socket_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_spring_constraint.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_vehicle.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\physics\physics_vehicle_wheel.h">
+      <Filter>src\physics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -497,43 +530,40 @@
     <ClCompile Include="..\..\..\scythe\src\math\vertical_profile.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\box_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\complex_mesh.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\complex_mesh_obj.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\complex_mesh_scm.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\cube_frame.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\cube_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\generated_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\model\mesh.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_box.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_cube.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_obj.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_part.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_physical_box.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_quad_fullscreen.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_scm.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_sphere.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_tetrahedron.cpp">
       <Filter>src\model</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.cpp">
       <Filter>src\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\physical_box_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\screen_quad_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\sphere_model.cpp">
-      <Filter>src\model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\tetrahedron_model.cpp">
+    <ClCompile Include="..\..\..\scythe\src\model\model.cpp">
       <Filter>src\model</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\planet\planet_navigation.cpp">
@@ -608,10 +638,16 @@
     <ClCompile Include="..\..\..\scythe\src\crypt.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\drawable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\endianness.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\ini_file.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\node.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\resource_manager.cpp">
@@ -621,6 +657,12 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\common\ref.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\common\log.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\common\notification.cpp">
       <Filter>src\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\math\vector2.cpp">
@@ -659,6 +701,45 @@
     <ClCompile Include="..\..\..\scythe\src\math\transform.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_collision_object.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_collision_shape.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_controller.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_fixed_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_generic_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_ghost_object.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_hinge_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_rigid_body.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_socket_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_spring_constraint.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_vehicle.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\physics\physics_vehicle_wheel.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\scythe\src\math\vector2.inl">
@@ -690,6 +771,21 @@
     </None>
     <None Include="..\..\..\scythe\src\math\ray.inl">
       <Filter>src\math</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\physics\physics_constraint.inl">
+      <Filter>src\physics</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\physics\physics_fixed_constraint.inl">
+      <Filter>src\physics</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\physics\physics_generic_constraint.inl">
+      <Filter>src\physics</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\physics\physics_rigid_body.inl">
+      <Filter>src\physics</Filter>
+    </None>
+    <None Include="..\..\..\scythe\src\physics\physics_spring_constraint.inl">
+      <Filter>src\physics</Filter>
     </None>
   </ItemGroup>
 </Project>
