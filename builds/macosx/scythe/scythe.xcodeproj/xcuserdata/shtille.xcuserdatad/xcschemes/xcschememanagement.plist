@@ -12,32 +12,52 @@
 		<key>AtmosphericScattering.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>1</integer>
 		</dict>
-		<key>bullet.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>freetype.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>jpeg.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>png.xcscheme_^#shared#^_</key>
+		<key>PBR.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>script.xcscheme_^#shared#^_</key>
+		<key>RayTrace.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Sandbox.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>Shadows.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>bullet.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>freetype.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>jpeg.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>png.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>script.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>scythe.xcscheme_^#shared#^_</key>
 		<dict>
@@ -47,7 +67,40 @@
 		<key>z.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D0BF53A23E8D92500145047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D0BF55223E8D9FB00145047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D0BF5B923E8DD8C00145047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D0BF5D223E8DE2700145047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D81D2C32210AC180091DCA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DB26BF123E3AE1800B96FFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -7,6 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0BF54023E8D92500145047 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D3442210B4830091DCA3 /* libfreetype.a */; };
+		1D0BF54123E8D92500145047 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EE32239A88C003CE7A3 /* libjpeg.a */; };
+		1D0BF54223E8D92500145047 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EDB2239A86E003CE7A3 /* libpng.a */; };
+		1D0BF54323E8D92500145047 /* libscythe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2C42210AC180091DCA3 /* libscythe.a */; };
+		1D0BF54423E8D92500145047 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2CF2210AFA40091DCA3 /* libz.a */; };
+		1D0BF54523E8D92500145047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DE2256BD79003E100B /* Cocoa.framework */; };
+		1D0BF54623E8D92500145047 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DD2256BD79003E100B /* OpenGL.framework */; };
+		1D0BF55123E8D9B300145047 /* shadows_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF55023E8D9B300145047 /* shadows_main.cpp */; };
+		1D0BF55823E8D9FB00145047 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D3442210B4830091DCA3 /* libfreetype.a */; };
+		1D0BF55923E8D9FB00145047 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EE32239A88C003CE7A3 /* libjpeg.a */; };
+		1D0BF55A23E8D9FB00145047 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EDB2239A86E003CE7A3 /* libpng.a */; };
+		1D0BF55B23E8D9FB00145047 /* libscythe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2C42210AC180091DCA3 /* libscythe.a */; };
+		1D0BF55C23E8D9FB00145047 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2CF2210AFA40091DCA3 /* libz.a */; };
+		1D0BF55D23E8D9FB00145047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DE2256BD79003E100B /* Cocoa.framework */; };
+		1D0BF55E23E8D9FB00145047 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DD2256BD79003E100B /* OpenGL.framework */; };
+		1D0BF56923E8DC3400145047 /* ray_trace_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF56823E8DC3400145047 /* ray_trace_main.cpp */; };
+		1D0BF5B123E8DD3D00145047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AB23E8DD1900145047 /* Assets.xcassets */; };
+		1D0BF5B223E8DD4000145047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AD23E8DD2900145047 /* MainMenu.xib */; };
+		1D0BF5B323E8DD5B00145047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AD23E8DD2900145047 /* MainMenu.xib */; };
+		1D0BF5B423E8DD5F00145047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AB23E8DD1900145047 /* Assets.xcassets */; };
+		1D0BF5B623E8DD6C00145047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AD23E8DD2900145047 /* MainMenu.xib */; };
+		1D0BF5B723E8DD7000145047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AB23E8DD1900145047 /* Assets.xcassets */; };
+		1D0BF5BF23E8DD8C00145047 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D3442210B4830091DCA3 /* libfreetype.a */; };
+		1D0BF5C023E8DD8C00145047 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EE32239A88C003CE7A3 /* libjpeg.a */; };
+		1D0BF5C123E8DD8C00145047 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EDB2239A86E003CE7A3 /* libpng.a */; };
+		1D0BF5C223E8DD8C00145047 /* libscythe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2C42210AC180091DCA3 /* libscythe.a */; };
+		1D0BF5C323E8DD8C00145047 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2CF2210AFA40091DCA3 /* libz.a */; };
+		1D0BF5C423E8DD8C00145047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DE2256BD79003E100B /* Cocoa.framework */; };
+		1D0BF5C523E8DD8C00145047 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DD2256BD79003E100B /* OpenGL.framework */; };
+		1D0BF5C823E8DD8C00145047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AB23E8DD1900145047 /* Assets.xcassets */; };
+		1D0BF5C923E8DD8C00145047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AD23E8DD2900145047 /* MainMenu.xib */; };
+		1D0BF5D123E8DE1600145047 /* pbr_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5CF23E8DE0200145047 /* pbr_main.cpp */; };
+		1D0BF5D823E8DE2700145047 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D3442210B4830091DCA3 /* libfreetype.a */; };
+		1D0BF5D923E8DE2700145047 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EE32239A88C003CE7A3 /* libjpeg.a */; };
+		1D0BF5DA23E8DE2700145047 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EDB2239A86E003CE7A3 /* libpng.a */; };
+		1D0BF5DB23E8DE2700145047 /* libscythe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2C42210AC180091DCA3 /* libscythe.a */; };
+		1D0BF5DC23E8DE2700145047 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2CF2210AFA40091DCA3 /* libz.a */; };
+		1D0BF5DD23E8DE2700145047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DE2256BD79003E100B /* Cocoa.framework */; };
+		1D0BF5DE23E8DE2700145047 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DD2256BD79003E100B /* OpenGL.framework */; };
+		1D0BF5E123E8DE2700145047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AB23E8DD1900145047 /* Assets.xcassets */; };
+		1D0BF5E223E8DE2700145047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0BF5AD23E8DD2900145047 /* MainMenu.xib */; };
+		1D0BF5F323E8DEB500145047 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5EC23E8DEB500145047 /* object.cpp */; };
+		1D0BF5F423E8DEB500145047 /* sandbox_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5EE23E8DEB500145047 /* sandbox_main.cpp */; };
+		1D0BF5F523E8DEB500145047 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5F023E8DEB500145047 /* parser.cpp */; };
+		1D0BF5F623E8DEB500145047 /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5F223E8DEB500145047 /* console.cpp */; };
+		1D0BF5F723E8E22300145047 /* libbullet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36F9D2239C3AF003CE7A3 /* libbullet.a */; };
+		1D0BF5F823E8E22900145047 /* libscript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36F6E2239BBAF003CE7A3 /* libscript.a */; };
+		1D5BBD1023E8E4C500FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
+		1D5BBD1123E8E4CB00FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
+		1D5BBD1223E8E4D100FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
+		1D5BBD1323E8E4D700FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
+		1D5BBD1423E8E4E000FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
 		1D8190A3223B025D00DA48A8 /* btCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D819099223B025C00DA48A8 /* btCollisionAlgorithm.cpp */; };
 		1D8190A4223B025D00DA48A8 /* btDbvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D81909A223B025C00DA48A8 /* btDbvt.cpp */; };
 		1D8190A5223B025D00DA48A8 /* btDbvtBroadphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D81909B223B025C00DA48A8 /* btDbvtBroadphase.cpp */; };
@@ -446,8 +498,6 @@
 		1DB26BA723E3A7AB00B96FFF /* ftotval.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DB26A0D23E3A7A600B96FFF /* ftotval.c */; };
 		1DB26BA823E3A7AB00B96FFF /* ftgasp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DB26A0E23E3A7A600B96FFF /* ftgasp.c */; };
 		1DB26BAB23E3A7AB00B96FFF /* ftsynth.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DB26A1123E3A7A600B96FFF /* ftsynth.c */; };
-		1DB26BF823E3AE1A00B96FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB26BF723E3AE1A00B96FFF /* Assets.xcassets */; };
-		1DB26BFB23E3AE1A00B96FFF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB26BF923E3AE1A00B96FFF /* MainMenu.xib */; };
 		1DB26C0323E3AEBC00B96FFF /* atmospheric_scattering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD5A7D42256BCAE003E100B /* atmospheric_scattering.cpp */; };
 		1DB26C0423E3AECC00B96FFF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DD2256BD79003E100B /* OpenGL.framework */; };
 		1DB26C0523E3AEEF00B96FFF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD5A7DE2256BD79003E100B /* Cocoa.framework */; };
@@ -456,7 +506,6 @@
 		1DB26C0823E3AF0400B96FFF /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36EDB2239A86E003CE7A3 /* libpng.a */; };
 		1DB26C0923E3AF0400B96FFF /* libscythe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2C42210AC180091DCA3 /* libscythe.a */; };
 		1DB26C0A23E3AF0400B96FFF /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D81D2CF2210AFA40091DCA3 /* libz.a */; };
-		1DB26C0C23E3AF3A00B96FFF /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1DB26C0B23E3AF3A00B96FFF /* data */; };
 		1DC36EFA2239B662003CE7A3 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DC36EEB2239B662003CE7A3 /* pngrio.c */; };
 		1DC36EFB2239B662003CE7A3 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DC36EEC2239B662003CE7A3 /* pngtrans.c */; };
 		1DC36EFC2239B662003CE7A3 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DC36EED2239B662003CE7A3 /* pngset.c */; };
@@ -539,6 +588,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D0BF53C23E8D92500145047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81D2C32210AC180091DCA3;
+			remoteInfo = scythe;
+		};
+		1D0BF55423E8D9FB00145047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81D2C32210AC180091DCA3;
+			remoteInfo = scythe;
+		};
+		1D0BF5BB23E8DD8C00145047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81D2C32210AC180091DCA3;
+			remoteInfo = scythe;
+		};
+		1D0BF5D423E8DE2700145047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D81D2C32210AC180091DCA3;
+			remoteInfo = scythe;
+		};
+		1D0BF5E823E8DE6500145047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC36F6D2239BBAF003CE7A3;
+			remoteInfo = script;
+		};
 		1D8191BB223B08BD00DA48A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D81D2BC2210AC180091DCA3 /* Project object */;
@@ -598,6 +682,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0BF54E23E8D92500145047 /* Shadows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shadows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0BF55023E8D9B300145047 /* shadows_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shadows_main.cpp; path = ../../../../../demos/shadows/src/shadows_main.cpp; sourceTree = "<group>"; };
+		1D0BF56623E8D9FB00145047 /* RayTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0BF56823E8DC3400145047 /* ray_trace_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ray_trace_main.cpp; path = ../../../../../demos/ray_trace/src/ray_trace_main.cpp; sourceTree = "<group>"; };
+		1D0BF5AB23E8DD1900145047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = data/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1D0BF5AE23E8DD2900145047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = data/Base.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		1D0BF5CD23E8DD8C00145047 /* PBR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0BF5CF23E8DE0200145047 /* pbr_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbr_main.cpp; path = ../../../../../demos/pbr/src/pbr_main.cpp; sourceTree = "<group>"; };
+		1D0BF5E623E8DE2700145047 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0BF5EB23E8DEB500145047 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = ../../../../../demos/sandbox/src/object.h; sourceTree = "<group>"; };
+		1D0BF5EC23E8DEB500145047 /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = object.cpp; path = ../../../../../demos/sandbox/src/object.cpp; sourceTree = "<group>"; };
+		1D0BF5ED23E8DEB500145047 /* object_creator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object_creator.h; path = ../../../../../demos/sandbox/src/object_creator.h; sourceTree = "<group>"; };
+		1D0BF5EE23E8DEB500145047 /* sandbox_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sandbox_main.cpp; path = ../../../../../demos/sandbox/src/sandbox_main.cpp; sourceTree = "<group>"; };
+		1D0BF5EF23E8DEB500145047 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parser.h; path = ../../../../../demos/sandbox/src/parser.h; sourceTree = "<group>"; };
+		1D0BF5F023E8DEB500145047 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = ../../../../../demos/sandbox/src/parser.cpp; sourceTree = "<group>"; };
+		1D0BF5F123E8DEB500145047 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = console.h; path = ../../../../../demos/sandbox/src/console.h; sourceTree = "<group>"; };
+		1D0BF5F223E8DEB500145047 /* console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = console.cpp; path = ../../../../../demos/sandbox/src/console.cpp; sourceTree = "<group>"; };
+		1D5BBD0F23E8E46A00FA8950 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../../demos/data; sourceTree = "<group>"; };
 		1D819099223B025C00DA48A8 /* btCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btCollisionAlgorithm.cpp; path = ../../../../../../../../thirdparty/bullet/src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp; sourceTree = "<group>"; };
 		1D81909A223B025C00DA48A8 /* btDbvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDbvt.cpp; path = ../../../../../../../../thirdparty/bullet/src/BulletCollision/BroadphaseCollision/btDbvt.cpp; sourceTree = "<group>"; };
 		1D81909B223B025C00DA48A8 /* btDbvtBroadphase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDbvtBroadphase.cpp; path = ../../../../../../../../thirdparty/bullet/src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp; sourceTree = "<group>"; };
@@ -1057,11 +1159,6 @@
 		1DB26A0E23E3A7A600B96FFF /* ftgasp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftgasp.c; sourceTree = "<group>"; };
 		1DB26A1123E3A7A600B96FFF /* ftsynth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftsynth.c; sourceTree = "<group>"; };
 		1DB26BF223E3AE1800B96FFF /* AtmosphericScattering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtmosphericScattering.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB26BF723E3AE1A00B96FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1DB26BFA23E3AE1A00B96FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1DB26BFC23E3AE1A00B96FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DB26BFF23E3AE1A00B96FFF /* Atmospheric_Scattering.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Atmospheric_Scattering.entitlements; sourceTree = "<group>"; };
-		1DB26C0B23E3AF3A00B96FFF /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../demos/data; sourceTree = "<group>"; };
 		1DC36EDB2239A86E003CE7A3 /* libpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC36EE32239A88C003CE7A3 /* libjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC36EEB2239B662003CE7A3 /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrio.c; path = ../../../../../../thirdparty/libpng/src/pngrio.c; sourceTree = "<group>"; };
@@ -1152,6 +1249,64 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D0BF53F23E8D92500145047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF54023E8D92500145047 /* libfreetype.a in Frameworks */,
+				1D0BF54123E8D92500145047 /* libjpeg.a in Frameworks */,
+				1D0BF54223E8D92500145047 /* libpng.a in Frameworks */,
+				1D0BF54323E8D92500145047 /* libscythe.a in Frameworks */,
+				1D0BF54423E8D92500145047 /* libz.a in Frameworks */,
+				1D0BF54523E8D92500145047 /* Cocoa.framework in Frameworks */,
+				1D0BF54623E8D92500145047 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF55723E8D9FB00145047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF55823E8D9FB00145047 /* libfreetype.a in Frameworks */,
+				1D0BF55923E8D9FB00145047 /* libjpeg.a in Frameworks */,
+				1D0BF55A23E8D9FB00145047 /* libpng.a in Frameworks */,
+				1D0BF55B23E8D9FB00145047 /* libscythe.a in Frameworks */,
+				1D0BF55C23E8D9FB00145047 /* libz.a in Frameworks */,
+				1D0BF55D23E8D9FB00145047 /* Cocoa.framework in Frameworks */,
+				1D0BF55E23E8D9FB00145047 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5BE23E8DD8C00145047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF5BF23E8DD8C00145047 /* libfreetype.a in Frameworks */,
+				1D0BF5C023E8DD8C00145047 /* libjpeg.a in Frameworks */,
+				1D0BF5C123E8DD8C00145047 /* libpng.a in Frameworks */,
+				1D0BF5C223E8DD8C00145047 /* libscythe.a in Frameworks */,
+				1D0BF5C323E8DD8C00145047 /* libz.a in Frameworks */,
+				1D0BF5C423E8DD8C00145047 /* Cocoa.framework in Frameworks */,
+				1D0BF5C523E8DD8C00145047 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5D723E8DE2700145047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF5F823E8E22900145047 /* libscript.a in Frameworks */,
+				1D0BF5F723E8E22300145047 /* libbullet.a in Frameworks */,
+				1D0BF5D823E8DE2700145047 /* libfreetype.a in Frameworks */,
+				1D0BF5D923E8DE2700145047 /* libjpeg.a in Frameworks */,
+				1D0BF5DA23E8DE2700145047 /* libpng.a in Frameworks */,
+				1D0BF5DB23E8DE2700145047 /* libscythe.a in Frameworks */,
+				1D0BF5DC23E8DE2700145047 /* libz.a in Frameworks */,
+				1D0BF5DD23E8DE2700145047 /* Cocoa.framework in Frameworks */,
+				1D0BF5DE23E8DE2700145047 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D81D2C22210AC180091DCA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1218,6 +1373,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0BF56A23E8DCAD00145047 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D5BBD0F23E8E46A00FA8950 /* data */,
+				1D0BF5AD23E8DD2900145047 /* MainMenu.xib */,
+				1D0BF5AB23E8DD1900145047 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D0BF5EA23E8DE8700145047 /* sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				1D0BF5F223E8DEB500145047 /* console.cpp */,
+				1D0BF5F123E8DEB500145047 /* console.h */,
+				1D0BF5ED23E8DEB500145047 /* object_creator.h */,
+				1D0BF5EC23E8DEB500145047 /* object.cpp */,
+				1D0BF5EB23E8DEB500145047 /* object.h */,
+				1D0BF5F023E8DEB500145047 /* parser.cpp */,
+				1D0BF5EF23E8DEB500145047 /* parser.h */,
+				1D0BF5EE23E8DEB500145047 /* sandbox_main.cpp */,
+			);
+			path = sandbox;
+			sourceTree = "<group>";
+		};
 		1D8190AD223B026300DA48A8 /* CollisionDispatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -1446,11 +1626,10 @@
 		1D81D2BB2210AC180091DCA3 = {
 			isa = PBXGroup;
 			children = (
-				1DB26C0B23E3AF3A00B96FFF /* data */,
+				1D0BF56A23E8DCAD00145047 /* Resources */,
 				1D81D2D32210AFC10091DCA3 /* demos */,
 				1D81D2D42210AFCF0091DCA3 /* scythe */,
 				1D81D2D52210AFD70091DCA3 /* thirdparty */,
-				1DB26BF323E3AE1800B96FFF /* Atmospheric Scattering */,
 				1D81D2C52210AC180091DCA3 /* Products */,
 				1DD5A7D62256BD79003E100B /* Frameworks */,
 			);
@@ -1467,6 +1646,10 @@
 				1DC36F6E2239BBAF003CE7A3 /* libscript.a */,
 				1DC36F9D2239C3AF003CE7A3 /* libbullet.a */,
 				1DB26BF223E3AE1800B96FFF /* AtmosphericScattering.app */,
+				1D0BF54E23E8D92500145047 /* Shadows.app */,
+				1D0BF56623E8D9FB00145047 /* RayTrace.app */,
+				1D0BF5CD23E8DD8C00145047 /* PBR.app */,
+				1D0BF5E623E8DE2700145047 /* Sandbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1474,6 +1657,7 @@
 		1D81D2D32210AFC10091DCA3 /* demos */ = {
 			isa = PBXGroup;
 			children = (
+				1D0BF5EA23E8DE8700145047 /* sandbox */,
 				1DD5A7BA2256B9D7003E100B /* shadows */,
 				1DD5A7B92256B9CF003E100B /* ray_trace */,
 				1DD5A7B82256B9C9003E100B /* pbr */,
@@ -2209,17 +2393,6 @@
 			path = base;
 			sourceTree = "<group>";
 		};
-		1DB26BF323E3AE1800B96FFF /* Atmospheric Scattering */ = {
-			isa = PBXGroup;
-			children = (
-				1DB26BF723E3AE1A00B96FFF /* Assets.xcassets */,
-				1DB26BF923E3AE1A00B96FFF /* MainMenu.xib */,
-				1DB26BFC23E3AE1A00B96FFF /* Info.plist */,
-				1DB26BFF23E3AE1A00B96FFF /* Atmospheric_Scattering.entitlements */,
-			);
-			path = "Atmospheric Scattering";
-			sourceTree = "<group>";
-		};
 		1DC36EE72239A8A3003CE7A3 /* png */ = {
 			isa = PBXGroup;
 			children = (
@@ -2404,6 +2577,7 @@
 		1DD5A7B82256B9C9003E100B /* pbr */ = {
 			isa = PBXGroup;
 			children = (
+				1D0BF5CF23E8DE0200145047 /* pbr_main.cpp */,
 			);
 			path = pbr;
 			sourceTree = "<group>";
@@ -2411,6 +2585,7 @@
 		1DD5A7B92256B9CF003E100B /* ray_trace */ = {
 			isa = PBXGroup;
 			children = (
+				1D0BF56823E8DC3400145047 /* ray_trace_main.cpp */,
 			);
 			path = ray_trace;
 			sourceTree = "<group>";
@@ -2418,6 +2593,7 @@
 		1DD5A7BA2256B9D7003E100B /* shadows */ = {
 			isa = PBXGroup;
 			children = (
+				1D0BF55023E8D9B300145047 /* shadows_main.cpp */,
 			);
 			path = shadows;
 			sourceTree = "<group>";
@@ -2645,6 +2821,79 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1D0BF53A23E8D92500145047 /* Shadows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0BF54B23E8D92500145047 /* Build configuration list for PBXNativeTarget "Shadows" */;
+			buildPhases = (
+				1D0BF53D23E8D92500145047 /* Sources */,
+				1D0BF53F23E8D92500145047 /* Frameworks */,
+				1D0BF54723E8D92500145047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0BF53B23E8D92500145047 /* PBXTargetDependency */,
+			);
+			name = Shadows;
+			productName = "Atmospheric Scattering";
+			productReference = 1D0BF54E23E8D92500145047 /* Shadows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D0BF55223E8D9FB00145047 /* RayTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0BF56323E8D9FB00145047 /* Build configuration list for PBXNativeTarget "RayTrace" */;
+			buildPhases = (
+				1D0BF55523E8D9FB00145047 /* Sources */,
+				1D0BF55723E8D9FB00145047 /* Frameworks */,
+				1D0BF55F23E8D9FB00145047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0BF55323E8D9FB00145047 /* PBXTargetDependency */,
+			);
+			name = RayTrace;
+			productName = "Atmospheric Scattering";
+			productReference = 1D0BF56623E8D9FB00145047 /* RayTrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D0BF5B923E8DD8C00145047 /* PBR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0BF5CA23E8DD8C00145047 /* Build configuration list for PBXNativeTarget "PBR" */;
+			buildPhases = (
+				1D0BF5BC23E8DD8C00145047 /* Sources */,
+				1D0BF5BE23E8DD8C00145047 /* Frameworks */,
+				1D0BF5C623E8DD8C00145047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0BF5BA23E8DD8C00145047 /* PBXTargetDependency */,
+			);
+			name = PBR;
+			productName = "Atmospheric Scattering";
+			productReference = 1D0BF5CD23E8DD8C00145047 /* PBR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D0BF5D223E8DE2700145047 /* Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0BF5E323E8DE2700145047 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildPhases = (
+				1D0BF5D523E8DE2700145047 /* Sources */,
+				1D0BF5D723E8DE2700145047 /* Frameworks */,
+				1D0BF5DF23E8DE2700145047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0BF5E923E8DE6500145047 /* PBXTargetDependency */,
+				1D0BF5D323E8DE2700145047 /* PBXTargetDependency */,
+			);
+			name = Sandbox;
+			productName = "Atmospheric Scattering";
+			productReference = 1D0BF5E623E8DE2700145047 /* Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1D81D2C32210AC180091DCA3 /* scythe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D81D2C82210AC180091DCA3 /* Build configuration list for PBXNativeTarget "scythe" */;
@@ -2795,7 +3044,7 @@
 		1D81D2BC2210AC180091DCA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Владимир Свиридов";
 				TargetAttributes = {
 					1D81D2C32210AC180091DCA3 = {
@@ -2845,24 +3094,103 @@
 				1DC36F6D2239BBAF003CE7A3 /* script */,
 				1DC36F9C2239C3AF003CE7A3 /* bullet */,
 				1DB26BF123E3AE1800B96FFF /* AtmosphericScattering */,
+				1D0BF53A23E8D92500145047 /* Shadows */,
+				1D0BF55223E8D9FB00145047 /* RayTrace */,
+				1D0BF5B923E8DD8C00145047 /* PBR */,
+				1D0BF5D223E8DE2700145047 /* Sandbox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D0BF54723E8D92500145047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BBD1123E8E4CB00FA8950 /* data in Resources */,
+				1D0BF5B423E8DD5F00145047 /* Assets.xcassets in Resources */,
+				1D0BF5B323E8DD5B00145047 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF55F23E8D9FB00145047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BBD1223E8E4D100FA8950 /* data in Resources */,
+				1D0BF5B723E8DD7000145047 /* Assets.xcassets in Resources */,
+				1D0BF5B623E8DD6C00145047 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5C623E8DD8C00145047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BBD1323E8E4D700FA8950 /* data in Resources */,
+				1D0BF5C823E8DD8C00145047 /* Assets.xcassets in Resources */,
+				1D0BF5C923E8DD8C00145047 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5DF23E8DE2700145047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5BBD1423E8E4E000FA8950 /* data in Resources */,
+				1D0BF5E123E8DE2700145047 /* Assets.xcassets in Resources */,
+				1D0BF5E223E8DE2700145047 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DB26BF023E3AE1800B96FFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB26C0C23E3AF3A00B96FFF /* data in Resources */,
-				1DB26BF823E3AE1A00B96FFF /* Assets.xcassets in Resources */,
-				1DB26BFB23E3AE1A00B96FFF /* MainMenu.xib in Resources */,
+				1D5BBD1023E8E4C500FA8950 /* data in Resources */,
+				1D0BF5B123E8DD3D00145047 /* Assets.xcassets in Resources */,
+				1D0BF5B223E8DD4000145047 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1D0BF53D23E8D92500145047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF55123E8D9B300145047 /* shadows_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF55523E8D9FB00145047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF56923E8DC3400145047 /* ray_trace_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5BC23E8DD8C00145047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF5D123E8DE1600145047 /* pbr_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0BF5D523E8DE2700145047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0BF5F423E8DEB500145047 /* sandbox_main.cpp in Sources */,
+				1D0BF5F523E8DEB500145047 /* parser.cpp in Sources */,
+				1D0BF5F323E8DEB500145047 /* object.cpp in Sources */,
+				1D0BF5F623E8DEB500145047 /* console.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D81D2C12210AC180091DCA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3292,6 +3620,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1D0BF53B23E8D92500145047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81D2C32210AC180091DCA3 /* scythe */;
+			targetProxy = 1D0BF53C23E8D92500145047 /* PBXContainerItemProxy */;
+		};
+		1D0BF55323E8D9FB00145047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81D2C32210AC180091DCA3 /* scythe */;
+			targetProxy = 1D0BF55423E8D9FB00145047 /* PBXContainerItemProxy */;
+		};
+		1D0BF5BA23E8DD8C00145047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81D2C32210AC180091DCA3 /* scythe */;
+			targetProxy = 1D0BF5BB23E8DD8C00145047 /* PBXContainerItemProxy */;
+		};
+		1D0BF5D323E8DE2700145047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D81D2C32210AC180091DCA3 /* scythe */;
+			targetProxy = 1D0BF5D423E8DE2700145047 /* PBXContainerItemProxy */;
+		};
+		1D0BF5E923E8DE6500145047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC36F6D2239BBAF003CE7A3 /* script */;
+			targetProxy = 1D0BF5E823E8DE6500145047 /* PBXContainerItemProxy */;
+		};
 		1D8191BC223B08BD00DA48A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D81D2CE2210AFA40091DCA3 /* z */;
@@ -3335,10 +3688,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1DB26BF923E3AE1A00B96FFF /* MainMenu.xib */ = {
+		1D0BF5AD23E8DD2900145047 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DB26BFA23E3AE1A00B96FFF /* Base */,
+				1D0BF5AE23E8DD2900145047 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -3346,6 +3699,194 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1D0BF54C23E8D92500145047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.Shadows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D0BF54D23E8D92500145047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.Shadows";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D0BF56423E8D9FB00145047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.RayTrace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D0BF56523E8D9FB00145047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.RayTrace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D0BF5CB23E8DD8C00145047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.PBR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D0BF5CC23E8DD8C00145047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.PBR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D0BF5E423E8DE2700145047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+					../../../thirdparty/script/src,
+					../../../thirdparty/bullet/src,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D0BF5E523E8DE2700145047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../scythe/src,
+					../../../scythe/include,
+					../../../thirdparty/script/src,
+					../../../thirdparty/bullet/src,
+				);
+				INFOPLIST_FILE = data/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "shtille-llc.Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		1D81D2C62210AC180091DCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3577,14 +4118,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Atmospheric Scattering/Atmospheric_Scattering.entitlements";
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					../../../scythe/src,
 					../../../scythe/include,
 				);
-				INFOPLIST_FILE = "Atmospheric Scattering/Info.plist";
+				INFOPLIST_FILE = data/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -3599,14 +4141,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Atmospheric Scattering/Atmospheric_Scattering.entitlements";
+				CODE_SIGN_ENTITLEMENTS = data/demos.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					../../../scythe/src,
 					../../../scythe/include,
 				);
-				INFOPLIST_FILE = "Atmospheric Scattering/Info.plist";
+				INFOPLIST_FILE = data/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -3735,6 +4278,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D0BF54B23E8D92500145047 /* Build configuration list for PBXNativeTarget "Shadows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0BF54C23E8D92500145047 /* Debug */,
+				1D0BF54D23E8D92500145047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0BF56323E8D9FB00145047 /* Build configuration list for PBXNativeTarget "RayTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0BF56423E8D9FB00145047 /* Debug */,
+				1D0BF56523E8D9FB00145047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0BF5CA23E8DD8C00145047 /* Build configuration list for PBXNativeTarget "PBR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0BF5CB23E8DD8C00145047 /* Debug */,
+				1D0BF5CC23E8DD8C00145047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0BF5E323E8DE2700145047 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0BF5E423E8DE2700145047 /* Debug */,
+				1D0BF5E523E8DE2700145047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1D81D2BF2210AC180091DCA3 /* Build configuration list for PBXProject "scythe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
