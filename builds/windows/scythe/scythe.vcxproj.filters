@@ -81,9 +81,6 @@
     <ClInclude Include="..\..\..\scythe\src\application\opengl_application.h">
       <Filter>src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\common\counting_pointer.h">
-      <Filter>src\common</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\common\enum_table.h">
       <Filter>src\common</Filter>
     </ClInclude>
@@ -213,7 +210,7 @@
     <ClInclude Include="..\..\..\scythe\src\model\mesh_part.h">
       <Filter>src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.h">
+    <ClInclude Include="..\..\..\scythe\src\model\mesh_parts_enumerator.h">
       <Filter>src\model</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\model\model.h">
@@ -279,7 +276,7 @@
     <ClInclude Include="..\..\..\scythe\src\ui\console.h">
       <Filter>src\ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\scythe\src\ui\drawable.h">
+    <ClInclude Include="..\..\..\scythe\src\ui\ui_drawable.h">
       <Filter>src\ui</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\ui\label.h">
@@ -560,7 +557,7 @@
     <ClCompile Include="..\..\..\scythe\src\model\mesh_tetrahedron.cpp">
       <Filter>src\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.cpp">
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_parts_enumerator.cpp">
       <Filter>src\model</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\model\model.cpp">
@@ -611,7 +608,7 @@
     <ClCompile Include="..\..\..\scythe\src\ui\console.cpp">
       <Filter>src\ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\scythe\src\ui\drawable.cpp">
+    <ClCompile Include="..\..\..\scythe\src\ui\ui_drawable.cpp">
       <Filter>src\ui</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\ui\label.cpp">

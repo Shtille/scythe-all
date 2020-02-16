@@ -132,7 +132,6 @@
     <ClInclude Include="..\..\..\scythe\src\application\opengl_application.h" />
     <ClInclude Include="..\..\..\scythe\src\camera.h" />
     <ClInclude Include="..\..\..\scythe\src\color.h" />
-    <ClInclude Include="..\..\..\scythe\src\common\counting_pointer.h" />
     <ClInclude Include="..\..\..\scythe\src\common\enum_table.h" />
     <ClInclude Include="..\..\..\scythe\src\common\log.h" />
     <ClInclude Include="..\..\..\scythe\src\common\non_copyable.h" />
@@ -197,7 +196,7 @@
     <ClInclude Include="..\..\..\scythe\src\math\vertical_profile.h" />
     <ClInclude Include="..\..\..\scythe\src\model\mesh.h" />
     <ClInclude Include="..\..\..\scythe\src\model\mesh_part.h" />
-    <ClInclude Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.h" />
+    <ClInclude Include="..\..\..\scythe\src\model\mesh_parts_enumerator.h" />
     <ClInclude Include="..\..\..\scythe\src\model\model.h" />
     <ClInclude Include="..\..\..\scythe\src\model\tiny_obj_loader.h" />
     <ClInclude Include="..\..\..\scythe\src\model\vertex.h" />
@@ -237,7 +236,7 @@
     <ClInclude Include="..\..\..\scythe\src\ui\board.h" />
     <ClInclude Include="..\..\..\scythe\src\ui\button.h" />
     <ClInclude Include="..\..\..\scythe\src\ui\console.h" />
-    <ClInclude Include="..\..\..\scythe\src\ui\drawable.h" />
+    <ClInclude Include="..\..\..\scythe\src\ui\ui_drawable.h" />
     <ClInclude Include="..\..\..\scythe\src\ui\label.h" />
     <ClInclude Include="..\..\..\scythe\src\ui\progress_bar.h" />
     <ClInclude Include="..\..\..\scythe\src\ui\rect.h" />
@@ -312,7 +311,7 @@
     <ClCompile Include="..\..\..\scythe\src\model\mesh_scm.cpp" />
     <ClCompile Include="..\..\..\scythe\src\model\mesh_sphere.cpp" />
     <ClCompile Include="..\..\..\scythe\src\model\mesh_tetrahedron.cpp" />
-    <ClCompile Include="..\..\..\scythe\src\model\mesh_vertices_enumerator.cpp" />
+    <ClCompile Include="..\..\..\scythe\src\model\mesh_parts_enumerator.cpp" />
     <ClCompile Include="..\..\..\scythe\src\model\model.cpp" />
     <ClCompile Include="..\..\..\scythe\src\node.cpp" />
     <ClCompile Include="..\..\..\scythe\src\physics\physics_collision_object.cpp" />
@@ -345,7 +344,7 @@
     <ClCompile Include="..\..\..\scythe\src\ui\board.cpp" />
     <ClCompile Include="..\..\..\scythe\src\ui\button.cpp" />
     <ClCompile Include="..\..\..\scythe\src\ui\console.cpp" />
-    <ClCompile Include="..\..\..\scythe\src\ui\drawable.cpp" />
+    <ClCompile Include="..\..\..\scythe\src\ui\ui_drawable.cpp" />
     <ClCompile Include="..\..\..\scythe\src\ui\label.cpp" />
     <ClCompile Include="..\..\..\scythe\src\ui\progress_bar.cpp" />
     <ClCompile Include="..\..\..\scythe\src\ui\rect.cpp" />
