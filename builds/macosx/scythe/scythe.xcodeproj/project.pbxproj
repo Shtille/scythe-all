@@ -54,6 +54,8 @@
 		1D0BF5F623E8DEB500145047 /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BF5F223E8DEB500145047 /* console.cpp */; };
 		1D0BF5F723E8E22300145047 /* libbullet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36F9D2239C3AF003CE7A3 /* libbullet.a */; };
 		1D0BF5F823E8E22900145047 /* libscript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC36F6E2239BBAF003CE7A3 /* libscript.a */; };
+		1D272A8A2410772D00DFD04F /* mesh_parts_enumerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D272A882410772D00DFD04F /* mesh_parts_enumerator.cpp */; };
+		1D272A8B2410772D00DFD04F /* mesh_parts_enumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D272A892410772D00DFD04F /* mesh_parts_enumerator.h */; };
 		1D5BBD1023E8E4C500FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
 		1D5BBD1123E8E4CB00FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
 		1D5BBD1223E8E4D100FA8950 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 1D5BBD0F23E8E46A00FA8950 /* data */; };
@@ -363,9 +365,7 @@
 		1DB2648423E3989000B96FFF /* ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2638323E3989000B96FFF /* ref.h */; };
 		1DB2648523E3989000B96FFF /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2638423E3989000B96FFF /* platform.h */; };
 		1DB2648623E3989000B96FFF /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2638523E3989000B96FFF /* crypt.h */; };
-		1DB2648723E3989000B96FFF /* mesh_vertices_enumerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2638723E3989000B96FFF /* mesh_vertices_enumerator.cpp */; };
 		1DB2648823E3989000B96FFF /* vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2638823E3989000B96FFF /* vertex.h */; };
-		1DB2648923E3989000B96FFF /* mesh_vertices_enumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2638923E3989000B96FFF /* mesh_vertices_enumerator.h */; };
 		1DB2648A23E3989000B96FFF /* mesh_sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2638A23E3989000B96FFF /* mesh_sphere.cpp */; };
 		1DB2648B23E3989000B96FFF /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2638B23E3989000B96FFF /* mesh.cpp */; };
 		1DB2648C23E3989000B96FFF /* mesh_physical_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2638C23E3989000B96FFF /* mesh_physical_box.cpp */; };
@@ -699,6 +699,8 @@
 		1D0BF5F023E8DEB500145047 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = ../../../../../demos/sandbox/src/parser.cpp; sourceTree = "<group>"; };
 		1D0BF5F123E8DEB500145047 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = console.h; path = ../../../../../demos/sandbox/src/console.h; sourceTree = "<group>"; };
 		1D0BF5F223E8DEB500145047 /* console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = console.cpp; path = ../../../../../demos/sandbox/src/console.cpp; sourceTree = "<group>"; };
+		1D272A882410772D00DFD04F /* mesh_parts_enumerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh_parts_enumerator.cpp; sourceTree = "<group>"; };
+		1D272A892410772D00DFD04F /* mesh_parts_enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh_parts_enumerator.h; sourceTree = "<group>"; };
 		1D5BBD0F23E8E46A00FA8950 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../../demos/data; sourceTree = "<group>"; };
 		1D819099223B025C00DA48A8 /* btCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btCollisionAlgorithm.cpp; path = ../../../../../../../../thirdparty/bullet/src/BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp; sourceTree = "<group>"; };
 		1D81909A223B025C00DA48A8 /* btDbvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDbvt.cpp; path = ../../../../../../../../thirdparty/bullet/src/BulletCollision/BroadphaseCollision/btDbvt.cpp; sourceTree = "<group>"; };
@@ -1017,9 +1019,7 @@
 		1DB2638323E3989000B96FFF /* ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref.h; sourceTree = "<group>"; };
 		1DB2638423E3989000B96FFF /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		1DB2638523E3989000B96FFF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		1DB2638723E3989000B96FFF /* mesh_vertices_enumerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh_vertices_enumerator.cpp; sourceTree = "<group>"; };
 		1DB2638823E3989000B96FFF /* vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertex.h; sourceTree = "<group>"; };
-		1DB2638923E3989000B96FFF /* mesh_vertices_enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh_vertices_enumerator.h; sourceTree = "<group>"; };
 		1DB2638A23E3989000B96FFF /* mesh_sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh_sphere.cpp; sourceTree = "<group>"; };
 		1DB2638B23E3989000B96FFF /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh.cpp; sourceTree = "<group>"; };
 		1DB2638C23E3989000B96FFF /* mesh_physical_box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh_physical_box.cpp; sourceTree = "<group>"; };
@@ -2038,9 +2038,9 @@
 		1DB2638623E3989000B96FFF /* model */ = {
 			isa = PBXGroup;
 			children = (
-				1DB2638723E3989000B96FFF /* mesh_vertices_enumerator.cpp */,
+				1D272A882410772D00DFD04F /* mesh_parts_enumerator.cpp */,
+				1D272A892410772D00DFD04F /* mesh_parts_enumerator.h */,
 				1DB2638823E3989000B96FFF /* vertex.h */,
-				1DB2638923E3989000B96FFF /* mesh_vertices_enumerator.h */,
 				1DB2638A23E3989000B96FFF /* mesh_sphere.cpp */,
 				1DB2638B23E3989000B96FFF /* mesh.cpp */,
 				1DB2638C23E3989000B96FFF /* mesh_physical_box.cpp */,
@@ -2630,7 +2630,6 @@
 				1DB2643323E3989000B96FFF /* desktop_main_wrapper.h in Headers */,
 				1DB264AB23E3989000B96FFF /* physics_generic_constraint.h in Headers */,
 				1DB264C323E3989000B96FFF /* shader.h in Headers */,
-				1DB2648923E3989000B96FFF /* mesh_vertices_enumerator.h in Headers */,
 				1DB264A623E3989000B96FFF /* physics_vehicle_wheel.h in Headers */,
 				1DB264D623E3989000B96FFF /* texture.h in Headers */,
 				1DB2640523E3989000B96FFF /* rect.h in Headers */,
@@ -2736,6 +2735,7 @@
 				1DB2648223E3989000B96FFF /* counting_pointer.h in Headers */,
 				1DB264B623E3989000B96FFF /* physics_ghost_object.h in Headers */,
 				1DB2645323E3989000B96FFF /* matrix4.h in Headers */,
+				1D272A8B2410772D00DFD04F /* mesh_parts_enumerator.h in Headers */,
 				1DB264C223E3989000B96FFF /* scene.h in Headers */,
 				1DB264B023E3989000B96FFF /* physics_vehicle.h in Headers */,
 				1DB2645223E3989000B96FFF /* constants.h in Headers */,
@@ -3238,6 +3238,7 @@
 				1DB264BA23E3989000B96FFF /* opengl_application.cpp in Sources */,
 				1DB264AF23E3989000B96FFF /* physics_collision_object.cpp in Sources */,
 				1DB264D723E3989000B96FFF /* video_memory_buffer.cpp in Sources */,
+				1D272A8A2410772D00DFD04F /* mesh_parts_enumerator.cpp in Sources */,
 				1DB2649B23E3989000B96FFF /* string_id.cpp in Sources */,
 				1DB2645423E3989000B96FFF /* transform.cpp in Sources */,
 				1DB2640E23E3989000B96FFF /* service.cpp in Sources */,
@@ -3258,7 +3259,6 @@
 				1DB2640423E3989000B96FFF /* label.cpp in Sources */,
 				1DB264A023E3989000B96FFF /* physics_spring_constraint.cpp in Sources */,
 				1DB2646A23E3989000B96FFF /* image_hdr.cpp in Sources */,
-				1DB2648723E3989000B96FFF /* mesh_vertices_enumerator.cpp in Sources */,
 				1DB2640023E3989000B96FFF /* progress_bar.cpp in Sources */,
 				1DB2646923E3989000B96FFF /* image_jpeg.cpp in Sources */,
 				1DB2646323E3989000B96FFF /* plane.cpp in Sources */,
