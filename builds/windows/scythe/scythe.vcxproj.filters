@@ -420,6 +420,9 @@
     <ClInclude Include="..\..\..\scythe\src\physics\physics_vehicle_wheel.h">
       <Filter>src\physics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\graphics\shader_info.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\scythe\src\application\application.cpp">
@@ -736,6 +739,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\physics\physics_vehicle_wheel.cpp">
       <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\graphics\shader_info.cpp">
+      <Filter>src\graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

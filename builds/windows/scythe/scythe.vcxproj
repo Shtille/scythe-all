@@ -163,6 +163,7 @@
     <ClInclude Include="..\..\..\scythe\src\graphics\opengl\opengl_texture.h" />
     <ClInclude Include="..\..\..\scythe\src\graphics\renderer.h" />
     <ClInclude Include="..\..\..\scythe\src\graphics\shader.h" />
+    <ClInclude Include="..\..\..\scythe\src\graphics\shader_info.h" />
     <ClInclude Include="..\..\..\scythe\src\graphics\text.h" />
     <ClInclude Include="..\..\..\scythe\src\graphics\texture.h" />
     <ClInclude Include="..\..\..\scythe\src\graphics\vertex_buffer.h" />
@@ -269,6 +270,7 @@
     <ClCompile Include="..\..\..\scythe\src\graphics\opengl\opengl_texture.cpp" />
     <ClCompile Include="..\..\..\scythe\src\graphics\renderer.cpp" />
     <ClCompile Include="..\..\..\scythe\src\graphics\shader.cpp" />
+    <ClCompile Include="..\..\..\scythe\src\graphics\shader_info.cpp" />
     <ClCompile Include="..\..\..\scythe\src\graphics\text.cpp" />
     <ClCompile Include="..\..\..\scythe\src\graphics\texture.cpp" />
     <ClCompile Include="..\..\..\scythe\src\graphics\vertex_buffer.cpp" />
