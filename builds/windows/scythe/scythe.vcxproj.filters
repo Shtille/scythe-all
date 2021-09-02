@@ -524,6 +524,9 @@
     <ClCompile Include="..\..\..\scythe\src\math\common_math.cpp">
       <Filter>src\math</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\math\constants.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\math\segment.cpp">
       <Filter>src\math</Filter>
     </ClCompile>

@@ -290,6 +290,7 @@
     <ClCompile Include="..\..\..\scythe\src\math\bounding_box.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\bounding_sphere.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\common_math.cpp" />
+    <ClCompile Include="..\..\..\scythe\src\math\constants.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\frustum.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\geometry\polygon.cpp" />
     <ClCompile Include="..\..\..\scythe\src\math\matrix3.cpp" />
