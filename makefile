@@ -61,7 +61,11 @@ clean:
 
 .PHONY: help
 help:
-	@echo available targets: all clean
+	@echo available targets: all clean tests
+
+.PHONY: tests
+tests:
+	@$(MAKE) -C scythe $@
 
 $(LIBRARY_DIRS):
 	@$(MAKE) -C $@ $@
