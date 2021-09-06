@@ -108,6 +108,9 @@
     <ClInclude Include="..\..\..\scythe\src\common\types.h">
       <Filter>src\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\forward_list.h">
+      <Filter>src\containers</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\containers\list.h">
       <Filter>src\containers</Filter>
     </ClInclude>
@@ -430,6 +433,9 @@
       <Filter>src\graphics</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\memory\allocator.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\default_allocator.h">
       <Filter>src\memory</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\memory\pool_allocator.h">
