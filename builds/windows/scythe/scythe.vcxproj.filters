@@ -67,6 +67,9 @@
     <Filter Include="src\physics">
       <UniqueIdentifier>{ad25e9b4-4137-426e-9775-34df22c92525}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{b838eb5f-a834-4556-b4be-5d9c94612b1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\scythe\include\declare_main.h">
@@ -104,6 +107,9 @@
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\common\types.h">
       <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\list.h">
+      <Filter>src\containers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\containers\lru_cache.h">
       <Filter>src\containers</Filter>
@@ -422,6 +428,18 @@
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\graphics\shader_info.h">
       <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\allocator.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\pool_allocator.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\stack_linked_list.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\stl_pool_allocator.h">
+      <Filter>src\memory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -745,6 +763,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\scythe\src\graphics\shader_info.cpp">
       <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scythe\src\memory\pool_allocator.cpp">
+      <Filter>src\memory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
