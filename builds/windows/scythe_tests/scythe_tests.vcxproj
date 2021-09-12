@@ -123,8 +123,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\scythe\tests\main.cpp" />
+    <ClCompile Include="..\..\..\scythe\tests\containers\array_test.cpp" />
     <ClCompile Include="..\..\..\scythe\tests\containers\forward_list_test.cpp" />
     <ClCompile Include="..\..\..\scythe\tests\containers\list_test.cpp" />
+    <ClCompile Include="..\..\..\scythe\tests\containers\stack_test.cpp" />
     <ClCompile Include="..\..\..\scythe\tests\memory\pool_allocator_test.cpp" />
   </ItemGroup>
   <ItemGroup>

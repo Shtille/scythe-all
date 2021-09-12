@@ -108,6 +108,9 @@
     <ClInclude Include="..\..\..\scythe\src\common\types.h">
       <Filter>src\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\array.h">
+      <Filter>src\containers</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\containers\forward_list.h">
       <Filter>src\containers</Filter>
     </ClInclude>
@@ -115,6 +118,9 @@
       <Filter>src\containers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\containers\lru_cache.h">
+      <Filter>src\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\stack.h">
       <Filter>src\containers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\event\event.h">

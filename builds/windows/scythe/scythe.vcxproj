@@ -143,9 +143,11 @@
     <ClInclude Include="..\..\..\scythe\src\common\singleton.h" />
     <ClInclude Include="..\..\..\scythe\src\common\string_format.h" />
     <ClInclude Include="..\..\..\scythe\src\common\types.h" />
+    <ClInclude Include="..\..\..\scythe\src\containers\array.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\forward_list.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\list.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\lru_cache.h" />
+    <ClInclude Include="..\..\..\scythe\src\containers\stack.h" />
     <ClInclude Include="..\..\..\scythe\src\crypt.h" />
     <ClInclude Include="..\..\..\scythe\src\drawable.h" />
     <ClInclude Include="..\..\..\scythe\src\endianness.h" />
