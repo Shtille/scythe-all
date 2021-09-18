@@ -23,6 +23,9 @@
     <ClCompile Include="..\..\..\scythe\tests\containers\list_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\scythe\tests\containers\set_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\scythe\tests\containers\stack_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

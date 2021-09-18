@@ -120,6 +120,9 @@
     <ClInclude Include="..\..\..\scythe\src\containers\lru_cache.h">
       <Filter>src\containers</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\set.h">
+      <Filter>src\containers</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\containers\stack.h">
       <Filter>src\containers</Filter>
     </ClInclude>
@@ -451,6 +454,9 @@
       <Filter>src\memory</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\scythe\src\memory\stl_pool_allocator.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\memory\test_allocator.h">
       <Filter>src\memory</Filter>
     </ClInclude>
   </ItemGroup>
