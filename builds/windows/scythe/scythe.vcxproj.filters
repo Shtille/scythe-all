@@ -459,6 +459,9 @@
     <ClInclude Include="..\..\..\scythe\src\memory\test_allocator.h">
       <Filter>src\memory</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scythe\src\containers\map.h">
+      <Filter>src\containers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\scythe\src\application\application.cpp">

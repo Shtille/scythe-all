@@ -147,6 +147,7 @@
     <ClInclude Include="..\..\..\scythe\src\containers\forward_list.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\list.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\lru_cache.h" />
+    <ClInclude Include="..\..\..\scythe\src\containers\map.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\set.h" />
     <ClInclude Include="..\..\..\scythe\src\containers\stack.h" />
     <ClInclude Include="..\..\..\scythe\src\crypt.h" />
